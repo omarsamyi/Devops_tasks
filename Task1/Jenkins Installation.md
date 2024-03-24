@@ -42,5 +42,6 @@ sudo yum install jenkins
 
 
 #### Screenshots
+![[Jenkins Installation-20240324201001894.webp]]
 
-![[Adminuser.png]]![[Jenkins Url.png]]
+![[Jenkins Installation-20240324201002015.webp]]
