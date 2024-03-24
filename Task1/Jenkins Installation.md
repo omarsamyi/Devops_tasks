@@ -39,9 +39,3 @@ sudo yum install jenkins
 // Admin Password : `cat /var/lib/jenkins/secrets/initialAdminPassword`
 
 ---
-
-
-#### Screenshots
-![[Jenkins Installation-20240324201001894.webp]]
-
-![[Jenkins Installation-20240324201002015.webp]]
