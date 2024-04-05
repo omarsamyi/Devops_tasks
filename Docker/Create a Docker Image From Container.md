@@ -10,7 +10,7 @@ a. Create an image `ecommerce:xfusion` on `Application Server 3` from a cont
 ---
 ### Steps:
 
- <details>
+ 1. <details>
     <summary>SSH into host</summary>
 
     ```
@@ -18,7 +18,7 @@ a. Create an image `ecommerce:xfusion` on `Application Server 3` from a cont
     ```
     </details>
 
- <details>
+ 2. <details>
     <summary>Run docker command</summary>
 
     ```
@@ -26,7 +26,7 @@ a. Create an image `ecommerce:xfusion` on `Application Server 3` from a cont
     ```
     </details>
 
-<details>
+3. <details>
     <summary>Verify</summary>
 
     ```
