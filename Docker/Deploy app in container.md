@@ -24,8 +24,10 @@ For DB service:
 ---
 ### Steps:
 1. SSH into host server.
-2. Create `docker-compose.yml` file.
-```
+
+2. <details>
+<summary>Create `docker-compose.yml` file.</summary>
+
 version: '3'
 
 services:
@@ -67,4 +69,5 @@ services:
           MYSQL_USER=kkloud
 
           MYSQL_PASSWORD=P@ssw0rd
-```
+
+</details>
