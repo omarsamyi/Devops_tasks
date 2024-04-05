@@ -1,0 +1,38 @@
+The Nautilus DevOps team has started practicing some pods and services deployment on Kubernetes platform as they are planning to migrate most of their applications on Kubernetes platform. Recently one of the team members has been assigned a task to create a pod as per details mentioned below:
+
+1. Create a pod named pod-httpd using httpd image with latest tag only and remember to mention the tag i.e httpd:latest.
+
+2. Labels app should be set to httpd_app, also container should be named as httpd-container.
+---
+### Answer
+---
+### Steps:
+---
+1. <details>
+    <summary>Create pod.yaml</summary>
+
+    ```
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    app: httpd_app
+  name: pod-httpd
+spec:
+  containers:
+  - image: httpd:latest
+    name: httpd-container
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
+    ```
+    </details>
+
+2. <details>
+    <summary> Run command </summary>
+    ```
+    kubectl create -f pod.yaml
+    ```
+    </details>
